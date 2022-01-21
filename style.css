@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --black: #333;
+    --white: #fff;
+    --black: #333;
+    --text: #ccc;
+    --color-text: #333;
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Poppins';
+    /* border: 0.1px solid red; */
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1cc;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #772244;
+    margin-bottom: 25px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.Bx {
+    width: 350px;
+    height: 450px;
+    padding: 25px;
+    position: relative;
+    background: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #000;
+}
+
+.Bx p {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background: var(--text);
+    color: var(--color-text);
+}
+
+.BxP {
+    width: 350px;
+    height: 450px;
+    position: relative;
+    padding: 25px;
+    background: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #000;
+}
+
+.BxPx {
+    width: 350px;
+    height: 450px;
+    position: relative;
+    padding: 25px;
+    background: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #000;
+}
+
+.BxP p {
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding: 5px;
+    background: var(--text);
+    color: var(--color-text);
+    text-align: center;
+}
+
+.BxP h5 {
+    font-size: 1.1em;
+}
+
+.BxPx p {
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding: 5px;
+    background: var(--text);
+    color: var(--color-text);
+    text-align: center;
+}
+
+
+
+
+
+.FlexBx {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 25px;
+}
+
+sup {
+    padding: 5px;
+    border-radius: 50%;
+    background: #772222;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
